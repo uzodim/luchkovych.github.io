@@ -1,0 +1,219 @@
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: #f00;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: #0f0;
+    margin: 10px;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: #00f;
+    margin: 10px;
+}
+
+.oval {
+    width: 200px;
+    height: 100px;
+    background-color: #ff0;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #f0f;
+    margin: 10px;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #0ff;
+    margin: 10px;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 100px solid #ff00ff;
+    margin: 10px;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 100px solid #00ff00;
+    margin: 10px;
+}
+
+.diamond {
+    width: 120px;
+    height: 120px;
+    background: #1eff00;
+    / * Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    /* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    margin: 60px 0 10px 310px;
+}
+
+.trapezium {
+    width: 150px;
+    height: 0;
+    border-bottom: 100px solid #ff0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    margin: 10px;
+}
+
+.parallelogram {
+    width: 150px;
+    height: 100px;
+    transform: skew(30deg);
+    background-color: #ff00ff;
+    margin: 10px;
+}
+
+.star {
+    width: 0;
+    height: 0;
+    margin: 50px 0;
+    color: #fc2e5a;
+    position: relative;
+    display: block;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #fc2e5a;
+    border-left: 100px solid transparent;
+    -moz-transform: rotate (35deg);
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate (35deg);
+    -o-transform: rotate (35deg);
+}
+
+.star:before {
+    height: 0;
+    width: 0;
+    position: absolute;
+    display: block;
+    top: -45px;
+    left: -65px;
+    border-bottom: 80px solid #fc2e5a;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg)
+    -o-transform: rotate(-35deg);
+}
+
+.star:after {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    display: block;
+    top: 3px;
+    left: -105px;
+    color: #fc2e5a;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #fc2e5a;
+    border-left: 100px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -o-transform: rotate(-70deg);
+}
+
+.infinity {
+    width: 220px;
+    height: 100px;
+    position: relative;
+    margin: 10px;
+}
+
+.infinity:before,
+.infinity:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border: 20px solid transparent;
+    border-radius: 50%;
+}
+
+.infinity:before {
+    left: 0;
+    border-right-color: #0000ff;
+    transform: rotate(-45deg);
+}
+
+.infinity:after {
+    right: 0;
+    border-left-color: #0000ff;
+    transform: rotate(45deg);
+}
+
+.comment-bubble {
+    width: 140px;
+    height: 100px;
+    background-color: #088cb7;
+    position: relative;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+
+.comment-bubble:before {
+    content: '';
+    width: 0px;
+    height: 0px;
+    background-color: #088cb7;
+    border-top: 13px solid #088cb7;
+    border-right: 26px solid #088cb7;
+    border-bottom: 13px solid #088cb7;
+    position: absolute;
+    top: 38px;
+    right: 90%;
+    transform: rotate(45deg);
+}
+
+.pacman {
+    width: 0;
+    height: 0;
+    border-top: 70px solid yellow;
+    border-bottom: 70px solid yellow;
+    border-left: 70px solid yellow;
+    border-right: 70px solid transparent;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}

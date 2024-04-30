@@ -1,0 +1,28 @@
+/* Оформлення таблиці */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.header{
+    background-color: #5DC430;
+    color: white;
+}
+
+tr:nth-child(even) td {
+    background-color: #E6FFD3;
+}
+
+tr:nth-child(odd) td {
+    background-color: #D5FFB9;
+}

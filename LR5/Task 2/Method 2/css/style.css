@@ -1,0 +1,29 @@
+.table-wrapper {
+    width: 1509px;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.cell {
+    float: left;
+    width: calc(1400px / 6);
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.header {
+    background-color: #5DC430;
+    color: white;
+    text-align: center;
+}
+
+.row:nth-child(even) .cell {
+    background-color: #E6FFD3;
+}
+
+.row:nth-child(odd) .cell {
+    background-color: #D5FFB9;
+}

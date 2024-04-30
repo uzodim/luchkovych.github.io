@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.th1 {
+    width: 150px;
+    height: 20px;
+    color: white;
+    background-color: #94CCE8;
+    text-align: left;
+}
+
+.name {
+    width: 100px;
+    background-color: #94CCE8;
+    color: white;
+}
+
+td {
+    background-color: #CDE6F4;
+}

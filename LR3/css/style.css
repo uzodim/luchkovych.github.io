@@ -1,0 +1,57 @@
+body{
+	font-family: Verdana;
+}
+
+.container{
+	border: 1px solid black;
+	margin-top: 10px;
+}
+
+h1{
+	color: green;
+}
+
+article header p{
+	background-color: red;
+}
+
+article figure{
+	width: 600px;
+	border: 3px solid black;
+	padding: 5px;
+}
+
+article figure img{
+	width: 100%;
+}
+
+article{
+	width: 800px;
+}
+
+nav ul{
+	background-color: palevioletred;
+	list-style: none;
+	padding: 0;
+	width: 200px;
+	border: 1px solid mediumvioletred;
+}
+
+li{
+	padding: 5px;
+	border: 1px solid mediumvioletred;
+}
+
+nav ul li:last-child{
+	background-origin: none;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+	background: red;
+}

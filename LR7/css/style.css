@@ -1,0 +1,116 @@
+a:hover {
+    color: #0077cc;
+}
+
+.wrap{
+    position: absolute;
+    display: flex;
+    margin-top: 50px;
+}
+.swipe{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #D3D3D3;
+    position: absolute;
+    text-align: center;
+    line-height: 30px;
+    top: 40px;
+    color: #D3D3D3;
+    background: #fff;
+}
+
+.swipe-left{
+    left: -20px;
+}
+
+.swipe-right{
+    right: -20px;
+}
+
+.bublle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 170px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+.news{
+    background-color: #86B022;
+}
+
+.sale-hit{
+    background-color: #009DE1;
+}
+.product-card {
+    border: 1px solid #D3D3D3;
+    width: 230px;
+    height: 450px;
+    vertical-align: top;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.product-title {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #D3D3D3;
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.line-text{
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.product-name a:visited{
+    font-weight: bold;
+    color: #009BE1;
+}
+.link {
+    width: 130px;
+    height: 40px;
+    display: inline-block;
+    background-color: #F0E524;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    line-height: 40px;
+}
+
+.inactive-link {
+    color: white;
+    background: #CC3399;
+    pointer-events: none;
+    width: 130px;
+    height: 40px;
+    line-height: 20px;
+}
+
+.dotted{
+    width: 90%;
+    height: 2px;
+    background: #D3D3D3;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}

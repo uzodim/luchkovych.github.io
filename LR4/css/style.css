@@ -1,0 +1,29 @@
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border: 2px solid #000;
+    color: #fff;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.btn:nth-child(1) {
+    background-color: #007bff;
+}
+.btn:nth-child(2) {
+    background-color: #28a745;
+}
+.btn:nth-child(3) {
+    background-color: #dc3545;
+}
+.btn:nth-child(4) {
+    background-color: #ffc107;
+}
+.btn:nth-child(5) {
+    background-color: #6610f2;
+}
+.btn:hover {
+    opacity: 0.8;
+}
